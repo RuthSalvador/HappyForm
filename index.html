@@ -90,8 +90,8 @@
             <span></span>
           </div>
           <div>
-            <label for="other">Otros</label><br>
-            <input type="text" id="other" required>
+            <label for="other1">Otros</label><br>
+            <input type="text" id="other1" required>
             <span></span>
           </div>
           <div>
@@ -163,10 +163,167 @@
               <textarea id="quality" rows="8" cols="80"></textarea>
             </div>
           </fieldset>
-
+          <fieldset>
+            <legend>¿Cómo miden el impacto social de su iniciativa?</legend>
+            <p>Describa el mecanismo, los 2 principales indicadores y la medición actual de los mismos.</p>
+            <div>
+              <label for="impact">Impacto social. (Máximo 100 palabras)</label><br>
+              <textarea id="impact" rows="8" cols="80"></textarea>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Exponga cómo su organización innova, qué procesos y elementos de su modelo son diferentes y competitivos en el mercado.</legend>
+            <div>
+              <label for="innovation">Innovación. (Máximo 100 palabras)</label><br>
+              <textarea id="innovation" rows="8" cols="80"></textarea>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Recursos humanos</legend>
+            <em>Pueden indicar cero " 0 " si no tienen una cantidad.</em>
+            <div>
+              <label for="managers">¿Cuánta gente se encarga de dirigir y gestionar la iniciativa?</label><br>
+              <input type="number" id="managers" required>
+            </div>
+            <div>
+              <label for="remun-all">Cantidad de Remunerados a tiempo completo</label><br>
+              <input type="number" id="remun-all" required>
+            </div>
+            <div>
+              <label for="other2">Otro</label><br>
+              <input type="number" id="other2" required>
+            </div>
+            <div>
+              <label for="remun-par">Cantidad de Remunerados a tiempo parcial</label><br>
+              <input type="number" id="remun-par" required>
+            </div>
+            <div>
+              <label for="talent">Cantidad de Talento Voluntario</label><br>
+              <input type="number" id="talent" required>
+            </div>
+            <div>
+              <label for="fill">Si llenas otros ingresa la cantidad</label><br>
+              <input type="number" id="fill" required>
+            </div>
+            <div>
+              <p>Aliados estratégicos</p>
+              <label for="allies">¿Cuáles son las organizaciones aliadas de su proyecto y cómo se vinculan a su modelo? (separar los aliados por una coma ",")</label><br>
+              <textarea id="allies" rows="8" cols="80"></textarea>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Seleccione una o más opciones que describan cómo está financiando su organización.</legend>
+            <div>
+              <label>Fuente de Financiamiento</label><br>
+                <input type="checkbox" id="fto-1" required><label for="fto-1">He ganado uno o varios grants y/o capitales semilla</label><br>
+            </div>
+            <div>
+              <label>Fondos administrados durante el año 2014</label><br>
+                <input type="checkbox" id="fdo-1" required><label for="fdo-1">1000</label><br>
+            </div>
+            <div>
+              <label for="other3">Otras Fuentes de Financiamiento</label><br>
+              <input type="text" id="other3" required>
+            </div>
+            <div>
+              <label for="money">Monto Exacto: S/.</label><br>
+              <input type="number" id="money" required>
+            </div>
+            <div>
+              <label for="award">¿La organización ha sido premiada antes, dentro o fuera de Perú? Si la respuesta es sí, ¿qué premios ha recibido?</label><br>
+              <textarea id="award" rows="8" cols="80"></textarea>
+            </div>
+          </fieldset>
         </fieldset>
-
+        <fieldset>
+          <legend>Sobre el futuro de la organización postulante</legend>
+          <div>
+            <label for="challenge">¿Cuál es el principal desafío que debe afrontar para alcanzar el propósito que persigue su iniciativa y cómo lo resolverá? (Máximo 100 palabras)</label><br>
+            <textarea id="challenge" rows="8" cols="80"></textarea>
+          </div>
+          <div>
+            <label for="support">¿Cómo considera que el apoyo integral de Kunan podrá ayudarlo a superar sus desafíos y crecer? (Máximo 100 palabras)</label><br>
+            <textarea id="support" rows="8" cols="80"></textarea>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Información complementaria</legend>
+          <div>
+            <label for="page">Página web (link)</label><br>
+            <input type="text" id="page" required>
+          </div>
+          <div>
+            <label for="fanpage">Fanpage (link):</label><br>
+            <input type="text" id="fanpage" required>
+          </div>
+          <div>
+            <label for="twitter">Twitter:</label><br>
+            <input type="text" id="twitter" required>
+          </div>
+          <div>
+            <label for="fijo">Teléfono Fijo</label><br>
+            <input type="number" id="fijo" required>
+          </div>
+          <div>
+            <label for="celular">Teléfono Celular</label><br>
+            <input type="tel" id="celular" required>
+          </div>
+          <div>
+            <label for="email">Correo Electrónico</label><br>
+            <input type="email" id="email" required>
+          </div>
+          <div>
+            <em>Obligatorio al menos 1 foto.</em>
+            <label for="pic">Fotos de tu iniciativa</label><br>
+            <input type="email" id="pic" required>
+          </div>
+          <div>
+            <label>¿Por qué medio te enteraste de la convocatoria?</label><br>
+              <input type="checkbox" id="medio-1" required><label for="medio-1">Amigo</label><br>
+          </div>
+          <div>
+            <label for="other4">Si seleccionó otros medios</label><br>
+            <input type="text" id="other4" required>
+          </div>
+          <fieldset>
+            <legend>Sube tu video a youtube de dos minutos y de producción simple, en el que respondas a las siguientes preguntas:</legend>
+            <ul>
+              <li>¿Cuál es el sueño que quieres hacer realidad con tu iniciativa?</li>
+              <li>¿Cuál es el principal desafío del modelo de tu emprendimiento?</li>
+              <li>¿De qué manera el premio Kunan puede ayudarte a superar ese desafío?</li>
+            </ul>
+            <div>
+              <label for="video">Link Video</label><br>
+              <input type="text" id="video" required>
+            </div>
+            <ol>
+              <li>El video debe tener acceso público en el canal de Youtube.</li>
+              <li>El rótulo del video debe ser: <em>"Nombre del emprendimiento/Premio Kunan 2015".</em></li>
+              <li>Este video será público en una de las etapas de selección.</li>
+              <li>La Edición y Formato, no serán parte del criterio de evaluación.</li>
+              <li>El excedente a los 2 minutos no será visto.</li>
+            </ol>
+          </fieldset>
+        </fieldset>
+        <fieldset>
+          <legend>Declaración Jurada</legend>
+          <label>Por medio del presente formulario declaró a título personal y en representación de la organización que represento ante este Premio, que toda la información proporcionada para el Premio Kunan, es oficial, cierta y fidedigna. En tal sentido, autorizo a los organizadores del Premio para que en cualquier etapa del mismo extiendan cualquier consulta acerca de la información proveída y/o realicen la acción que estimen conveniente para la correcta verificación de los datos y antecedentes presentados. De presumirse de manera suficiente o se compruebe la falsedad y/o inexactitud de la información proveída por parte de nuestra Organización y/o de su representante oficial ante el Premio, se aceptamos que se proceda a la descalificación inmediata y a la anulación total de la postulación presentada. Dejamos expresa constancia que conocemos, respetamos y aceptamos las Bases y lineamientos del Premio Kunan organizado por Telefónica del Perú y Global Shapers Lima Hub.</label><br>
+          <label for="accept">Acepto la declaración</label><br>
+          <input type="checkbox" id="accept" required>
+        </fieldset>
+        <fieldset>
+          <legend>Enviar la postulación para su revisión</legend>
+          <label>He llenado todos los campos del formulario y quiero enviarla para concretar la postulación con éxito.<br><b>Recuerda: Al marcar este campo tu postulación no podrá ser editada nuevamente.</b></label><br>
+          <label for="send">Quiero enviar mi aplicación</label><br>
+          <input type="checkbox" id="send" required>
+        </fieldset>
+        <div class="">
+          <button id="boton" type="submit">Guardar</button>
+        </div>
       </form>
+      <div class="">
+        Encuentra información en el <span>glosario de términos.</span>
+      </div>
     </section>
   <script type='text/javascript' src='assets/js/app.js'></script>
   </body>
