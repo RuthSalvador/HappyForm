@@ -1,3 +1,44 @@
 body {
   font-family: 'Raleway', sans-serif;
+  margin: 0;
+}
+
+section {
+  width: 70%;
+  margin: 5% 15%;
+}
+
+footer {
+  background-color: #3E3F40;
+  color: #ffffff;
+  padding: 5% 15%;
+  position: relative;
+}
+
+.foot-left p {
+  font-weight: 300;
+}
+
+.foot-right {
+  position: absolute;
+  text-align: center;
+  top: 70px;
+  right: 250px;
+}
+
+footer li {
+  list-style-type: none;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+footer img {
+  height: 100%;
+}
+
+.oran {
+  color: #f96820;
 }
