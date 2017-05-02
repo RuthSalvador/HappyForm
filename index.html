@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Happy Form | Ruth Salvador</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+  </head>
+  <body>
+    <section>
+      <p>Antes de iniciar la inscripción debes leer las <span class="red">bases del concurso</span></p>
+      <p><strong>Nota: </strong>Al finalizar el formulario encontrarás el icono GUARDAR, el cual permitirá que puedas guardar la información ingresada si no culminaste el formulario, ddándote la posibilidad de entrar cuando necesites concretar y/o editar antes de elegir el icono ENVIAR.</p>
+      <form class="" method="post">
+        <h1>Formulario de Registro</h1>
+        <fieldset>
+          <legend>Datos del representante de la entidad postulante</legend>
+          <div>
+            <label for="lastname">Apellido:</label><br>
+            <input type="text" id="lastname" required>
+            <span></span>
+          </div>
+          <div>
+            <label for="name">Nombre:</label><br>
+            <input type="text" id="name" autofocus required >
+            <span></span>
+          </div>
+          <div>
+            <label for="birthdate">Fecha Nacimiento:</label><br>
+            <input type="date" id="birthdate" required>
+            <span></span>
+          </div>
+          <div>
+            <label for="age">Edad:</label><br>
+            <input type="number" id="age" required>
+            <span></span>
+          </div>
+          <div>
+            <label for="reg-nac">Region de nacimiento:</label><br>
+            <input type="text" id="reg-nac" required>
+            <span></span>
+          </div>
+          <div>
+            <label for="reg-res">Region de residencia:</label><br>
+            <input type="text" id="reg-res" required>
+            <span></span>
+          </div>
+          <div>
+            <label>Sexo:</label><br>
+            <input type="radio" id="male" name="sexo" required><label for="male">Masculino</label><br>
+            <input type="radio" id="female" name="sexo" required><label for="female">Femenino</label>
+            <span></span>
+          </div>
+          <div>
+            <label for="profession">Profesión</label><br>
+            <input type="text" id="profession" required>
+            <span></span>
+          </div>
+          <div>
+            <label for="position">Cargo en la organización</label><br>
+            <input type="text" id="position" required>
+            <span></span>
+          </div>
+          <div>
+            <label for="time-position">Tiempo en dicho cargo en cantidad de meses</label><br>
+            <input type="number" id="time-position" required>
+            <span></span>
+          </div>
+          <div>
+            <label for="time-organ">Tiempo en la organización en cantidad de meses</label><br>
+            <input type="number" id="time-organ" required>
+            <span></span>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Datos de la entidad postulante</legend>
+          <div>
+            <label for="name-ent">Nombre de la Entidad</label><br>
+            <input type="text" id="name-ent" required>
+            <span></span>
+          </div>
+          <div>
+            <label for="date-ent">¿Cuándo comenzaron a operar? (dd/mm/yyyy)</label><br>
+            <input type="date" id="date-ent" required>
+            <span></span>
+          </div>
+          <div>
+            <label for="name-ent">Tipo de organización</label><br>
+            <input type="text" id="name-ent" required>
+            <span></span>
+          </div>
+          <div>
+            <label for="other">Otros</label><br>
+            <input type="text" id="other" required>
+            <span></span>
+          </div>
+          <div>
+            <label for="name-ent">Ámbito de intervención:<br>¿Cuáles son las regiones, provincia y distritos donde se sitúan sus operaciones a lo largo de toda la cadena del negocio?</label><br>
+            <label>Regiones</label><br>
+              <input type="checkbox" id="amazonas" required><label for="amazonas">Amazonas</label><br>
+            <em>Indicar las provincias en las que intervienen tu emprendimiento respecto a las regiones marcadas anteriormente.</em>
+              <label for="province">Provincia</label><br>
+              <input type="text" id="province" required>
+            <em>Indicar los distritos en las que intervienen tu emprendimiento respecto a las provincias marcadas anteriormente.</em>
+              <label for="district">Distrito</label><br>
+              <input type="text" id="district" required>
+          </div>
+          <div>
+            <label>¿Está inscrita en Registros Públicos?<span>*</span></label><br>
+            <input type="radio" id="yes" name="insc" required><label for="yes">Si</label><br>
+            <input type="radio" id="no" name="insc" required><label for="no">No</label>
+            <span></span>
+          </div>
+          <div>
+            <label>Si responde “SI”, llena las siguientes opciones:</label><br>
+              <label for="ruc">RUC</label><br>
+              <input type="text" id="ruc" required><br>
+              <label for="date-insc">¿Cuándo se constituyeron? (dd/mm/yyyy)</label><br>
+              <input type="text" id="date-insc" required>
+              <span></span>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Información estratégica de la entidad postulante</legend>
+          <em>Esta información es confidencial y no será pública en ninguna etapa del proceso de evaluación.</em>
+          <div>
+            <label>¿Cuál es el sector de la problemática social que busca resolver su Organización? (Puede marcar más de una)</label><br>
+              <input type="checkbox" id="genero" required><label for="genero">Género</label><br>
+          </div>
+          <fieldset>
+            <legend>Conocimiento sobre el entorno y la problemática:</legend>
+            <b>Describa el principal problema social que busca resolver su organización.</b>
+            <div>
+              <label for="describe">Recomendamos usar datos precisos y evidenciar citando estudios, investigaciones, publicaciones, etc del problema que plantea.<br>(Máximo 80 palabras)</label><br>
+              <textarea id="describe" rows="8" cols="80"></textarea>
+            </div>
+            <div>
+              <label for="public">¿Cuál es el público objetivo directo e indirecto? (Máximo 20 palabras)</label><br>
+              <textarea id="public" rows="8" cols="80"></textarea>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Claridad sobre la propuesta de valor</legend>
+            <div>
+              <label for="public">Enuncie cómo su organización aporta a la solución del problema y qué beneficios concretos ofrece a su público objetivo.<br>(Máximo 60 palabras)</label><br>
+              <textarea id="public" rows="8" cols="80"></textarea>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Detalle cómo funciona su organización considerando toda la cadena del negocio.</legend>
+            <p>Ejemplo:</p>
+            <em>“Mi modelo consiste en convocar mujeres recicladoras entre 20 y 45 años. Las capacito en artesanía elaborada a base de plásticos. Luego, las contrato por 4 horas diarias de trabajo para elaborar los productos. Empezamos la venta on-line de productos. Cuando completamos el capital de 3mil soles de utilidad por artesana, pasamos a un contrato de tiempo completo y las recicladoras se convierten en ser artistas y empresarias. A partir de este momento, el 25% de las ventas de sus productos se reinvierten en nuestra organización, para sostenerla y convocar a una nueva promoción de recicladoras”.</em>
+            <div>
+              <label for="effect">Efectividad del modelo. (Máximo 100 palabras)</label><br>
+              <textarea id="effect" rows="8" cols="80"></textarea>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Detalle la cualidad de los servicios o productos que ofrece y cómo destacan en el mercado.</legend>
+            <em>En base al ejemplo anterior: “Mi organización ofrece el servicio de capacitación a recicladoras con un método efectivo que las prepara en sólo 3 meses. También ofrezco artesanía hecha a base de plástico que se distinguen por usar diseños contemporáneos en empaques también reusables”.</em>
+            <div>
+              <label for="quality">Calidad del servicio y/o producto. (Máximo 60 palabras)</label><br>
+              <textarea id="quality" rows="8" cols="80"></textarea>
+            </div>
+          </fieldset>
+
+        </fieldset>
+
+      </form>
+    </section>
+  <script type='text/javascript' src='assets/js/app.js'></script>
+  </body>
+</html>
