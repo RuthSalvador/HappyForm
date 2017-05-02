@@ -1,11 +1,67 @@
 body {
   font-family: 'Raleway', sans-serif;
   margin: 0;
+  color: #b5b6b7;
+  font-size: 0.95rem;
+  line-height: 1.8rem;
 }
 
 section {
   width: 70%;
   margin: 5% 15%;
+}
+
+h1 {
+  font-weight: 400;
+  color: #000000;
+  font-size: 2rem;
+}
+
+legend {
+  color: #000000;
+  font-size: 1.6rem;
+}
+
+fieldset {
+
+}
+
+fieldset fieldset legend {
+  font-size: 1.3rem;
+}
+
+input[type=text], input[type=date], input[type=number] {
+  width: 85%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+textarea {
+  width: 95%;
+}
+
+div {
+  margin: 1%;
+  display: inline-block;
+  width: 45%;
+}
+
+.only-block {
+  display: block;
+  width: 100%;
+}
+
+ {
+
+}
+
+strong {
+  color: #707274;
+  text-decoration: underline;
+}
+
+.dark {
+  color: #707274;
 }
 
 footer {
